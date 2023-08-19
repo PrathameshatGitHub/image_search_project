@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body,html{
+
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+}
+.card{
+    width: 600px;
+    height: 300px;
+    box-shadow: 10px 10px 15px rgba(192, 183, 183, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc; 
+   
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    font-size: 3rem;
+}
+#counter{
+    font-size: 4rem;
+}
+.btn{
+    border: none;
+    background-color: antiquewhite;
+    padding: 12px 23px;
+    margin: 0 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}

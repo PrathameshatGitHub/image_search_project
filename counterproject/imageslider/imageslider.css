@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.container{
+    width: 60%;
+    height: 60vh;
+    background: url("images/img1.jpg") center/cover  no-repeat;
+border: 5px solid #fff70f;
+
+position: relative;
+margin: 123px 150px;
+box-shadow:15px 12px 13px rgba(0, 0,0,0.5) ;
+}
+
+.left{
+
+    padding: 15px;
+    cursor: pointer;
+    font-size: 96px;
+    color: blue;
+   top: 50%;
+   left: 0%;
+
+  transform: translate(-50%,-50%);
+
+  
+    
+}
+
+.right{
+
+    padding: 15px;
+    cursor: pointer;
+    font-size: 96px;
+    color: blue;
+   top: 50%;
+   left: 50%;
+
+  transform: translate(-50%,-50%);
+margin-left: 63%;
+  
+    
+}
